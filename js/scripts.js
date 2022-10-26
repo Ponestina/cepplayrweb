@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', event => {
 var textWrapper = document.querySelector('.ml13');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: 3})
+anime.timeline({loop: 4})
   .add({
     targets: '.ml13 .letter',
     translateY: [100,0],
